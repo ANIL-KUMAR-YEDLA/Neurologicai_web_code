@@ -14,6 +14,9 @@ module.exports = {
         white: "#FFFFFF",
         black: "#000000",
       },
+      backgroundImage: {
+        'spotlight-gradient': 'linear-gradient(90deg, #5323EC 56.37%, #7F36F5 78.53%)',
+      },
     },
   },
   plugins: [],
