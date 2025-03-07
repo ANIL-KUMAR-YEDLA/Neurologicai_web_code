@@ -7,12 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        inter:["inter", "sans-serif"],
+        k2d: ["K2D", "sans-serif"],
+      },
       colors: {
         primary: "#5323EC",
-        secondary: "#4B0082",
-        dark: "#170226",
-        white: "#FFFFFF",
-        black: "#000000",
+        secondary: "#7F36F5",
       },
       backgroundImage: {
         'spotlight-gradient': 'linear-gradient(90deg, #5323EC 56.37%, #7F36F5 78.53%)',

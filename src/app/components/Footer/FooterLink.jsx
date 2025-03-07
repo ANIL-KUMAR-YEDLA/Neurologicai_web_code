@@ -9,7 +9,7 @@ const links = {
 
 export default function FooterLinks() {
   return (
-    <div className="grid grid-cols-4 gap-36"> {/* Increased gap between columns */}
+    <div className="grid grid-cols-4 gap-36"> 
       {Object.keys(links).map(category => (
         <div key={category} className="flex flex-col items-start gap-5">
           <h3 className="text-white text-[13px] font-[Inter] font-medium leading-[26px] tracking-[-0.001px]">
