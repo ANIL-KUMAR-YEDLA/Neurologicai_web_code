@@ -28,7 +28,7 @@ export default function SpotlightCard3() {
 
       <div className="absolute bottom-2 right-1">
             <Link href="/newsroom/50-startups-hyderabad" className="flex items-center justify-center text-[#A400FF] text-sm hover:text-white transition">
-              <span className="text-center font-[K2D] text-[16.651px] font-black leading-[16.651px] mr-1">
+              <span className="text-center font-k2d text-[16.651px] font-black leading-[16.651px] mr-1">
                 Read More
               </span>
               <Image
