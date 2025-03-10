@@ -6,12 +6,12 @@ const poppins = Poppins({
   subsets: ["latin"],  
 });
 
-const inter = Poppins({
+const inter = Inter({
   weight: ["400", "500", "600", "700"], 
   subsets: ["latin"],  
 });
 
-const k2d = Poppins({
+const k2d = K2D({
   weight: ["400", "500", "600", "700"],  
   subsets: ["latin"],  
 });
